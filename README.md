@@ -1,47 +1,43 @@
-# _{Application Name}_
+# _{Baum's Bagels}_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _A place to buy bagels, 08/26/2016_
 
-#### By _**{List of contributors}**_
+#### By _**Zach Baum**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_Javascript exercise on how to create a functioning web page for ordering food_
 
 ## Specs
 
-1. _User can choose what flavor of bagel they want to buy._
+1. _User can choose what type of bagel they want to buy._
 
-2. _User enters how many bagels of that type they would like and confirms their selection._
+2. _Additional options can be selected that increase the price when they're added to the bagel._
 
-3. _User can choose to add more bagels to their order and then repeat steps 1-2._
+3. _User enters how many bagels of that type they would like and confirms their selection._
 
-4. _User submits their order and the program prints their total cost on a receipt based on number and flavor of bagels._
+4. _User can choose to add more bagels to their order and then repeat steps 1-3._
 
-## Setup/Installation Requirements
+5. _User submits their order and the program prints their total cost on a receipt based on number and flavor of bagels._
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+## Link to github pages
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
-
-## Known Bugs
-
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+https://lazuli42.github.io/bagels/
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_zacharybaum42@gmail.com_
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+_Javascript, Bootstrap, & Jquery_
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+*Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.*
+
+Copyright (c) 2016 **_Zachary Baum_**
