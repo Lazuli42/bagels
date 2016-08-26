@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Baum's Bagels</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <div class="container">
+      <h1>Baum's Bagels</h1>
+      <hr>
+
+      <div class="row">
+        <div class="col-sm-9">
+          <h2>Bagels</h2>
+          <h5>$1.25 each</h5>
+          <form id="order">
+            <div class="row text-center">
+
+              <div class="col-sm-3">
+                <img class="img-responisve img-thumbnail" src="img/plain.jpg">
+                <div class="radio bagel">
+                  <label>
+                    <input type="radio" name="bagel" id="plain" value="plain" checked>
+                    <b>Plain</b>
+                  </label>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <img class="img-responisve img-thumbnail" src="img/sesame.jpg">
+                <div class="radio bagel">
+                  <label>
+                    <input type="radio" name="bagel" id="sesame" value="sesame">
+                    <b>Sesame Seed</b>
+                  </label>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <img class="img-responisve img-thumbnail" src="img/poppy.jpg">
+                <div class="radio bagel">
+                  <label>
+                    <input type="radio" name="bagel" id="poppy" value="poppy">
+                    <b>Poppy Seed</b>
+                  </label>
+                </div>
+              </div>
+              <div class="col-sm-3">
+                <img class="img-responisve img-thumbnail" src="img/onion.jpg">
+                <div class="radio bagel">
+                  <label>
+                    <input type="radio" name="bagel" id="onion" value="onion">
+                    <b>Onion</b>
+                  </label>
+                </div>
+              </div>
+            </div>
+          <!-- <div class="row text-center"
+            <div class="col-sm-3">
+              <img class="img-responisve img-thumbnail" src="img/pumpernickel.jpg">
+              <div class="radio bagel">
+                <label>
+                  <input type="radio" name="bagel" id="pumpernickel" value="pumpernickel">
+                  <b>Pumpernickel</b>
+                </label>
+              </div>
+            </div>
+          </div> -->
+
+          <div class="row">
+            <div class="col-sm-2">
+              <h4>Spreads</h4>
+              <h5>$0.25</h5>
+            </div>
+            <div class="col-sm-10">
+              <h4>Make it a Sandwich</h4>
+              <h5>$0.50 Add an Egg / $1.00 Add Meat / $0.75 Add Cheese</h5>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-2 spreads">
+              <div class="radio spread">
+                <label>
+                  <input type="radio" name="spread" id="butter" value="none" checked>
+                  <b>None</b>
+                </label>
+              </div>
+              <div class="radio spread">
+                <label>
+                  <input type="radio" name="spread" id="butter" value="butter">
+                  <b>Butter</b>
+                </label>
+              </div>
+              <div class="radio spread">
+                <label>
+                  <input type="radio" name="spread" id="creamCheese" value="creamCheese">
+                  <b>Cream Cheese</b>
+                </label>
+              </div>
+              <div class="radio spread">
+                <label>
+                  <input type="radio" name="spread" id="jam" value="jam">
+                  <b>Jam</b>
+                </label>
+              </div>
+            </div>
+
+            <div class="col-sm-2">
+              <div class="radio egg">
+                <label>
+                  <input type="radio" name="egg" id="egg" value="none" checked>
+                  <b>None</b>
+                </label>
+            </div>
+            <div class="radio egg">
+              <label>
+                <input type="radio" name="egg" id="egg" value="egg">
+                <b>Egg</b>
+              </label>
+            </div>
+            <div class="radio egg">
+              <label>
+                <input type="radio" name="egg" id="eggWhites" value="eggWhites">
+                <b>Egg Whites</b>
+              </label>
+            </div>
+          </div>
+
+            <div class="col-sm-2">
+              <div class="radio meat">
+                <label>
+                  <input type="radio" name="meat" id="none" value="none" checked>
+                  <b>None</b>
+                </label>
+              </div>
+              <div class="radio meat">
+                <label>
+                  <input type="radio" name="meat" id="bacon" value="bacon">
+                  <b>Bacon</b>
+                </label>
+              </div>
+              <div class="radio meat">
+                <label>
+                  <input type="radio" name="meat" id="sausage" value="sausage">
+                  <b>Sausage</b>
+                </label>
+              </div>
+              <div class="radio meat">
+                <label>
+                  <input type="radio" name="meat" id="ham" value="ham">
+                  <b>Ham</b>
+                </label>
+              </div>
+            </div>
+
+          <div class="col-sm-2">
+            <div class="radio cheese">
+              <label>
+                <input type="radio" name="cheese" id="noCheese" value="none" checked>
+                <b>None</b>
+              </label>
+            </div>
+            <div class="radio cheese">
+              <label>
+                <input type="radio" name="cheese" id="swiss" value="swiss">
+                <b>Swiss</b>
+              </label>
+            </div>
+            <div class="radio cheese">
+              <label>
+                <input type="radio" name="cheese" id="havardi" value="havardi">
+                <b>Havardi</b>
+              </label>
+            </div>
+          </div>
+        </div>
+
+          <div class="form-group">
+            <label for="bagelQuantity">Quantity</label>
+            <input type="number" class="form-control" id="bagelQuantity" value="1">
+          </div>
+
+          <button type="submit" class="btn btn-success">Add to Cart</button>
+          </form>
+        </div>
+
+        <div class="col-sm-3">
+            <h2>Receipt</h2>
+            <ul id="receiptItems">
+            </ul>
+            <h4><span id="total"></span></h4>
+
+            <button id="confirm" class="btn btn-primary" type="submit">Confirm Order</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.1.0.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+  </body>
+</html>

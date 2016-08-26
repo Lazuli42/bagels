@@ -1,0 +1,11 @@
+input {
+  max-width: 200px;
+}
+
+#confirm {
+  display: none;
+}
+
+img {
+  max-width: 200px;
+}
